@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-background text-primary antialiased;
+}
+
+::selection {
+  background: rgba(0, 204, 136, 0.25);
+}
